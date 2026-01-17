@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/QuickFinance'>
         <Routes>
           <Route path='/' element={<Home />}>
           </Route>
